@@ -203,6 +203,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Properties\PublishProfiles\gabior.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Images\blur.jpg" />
     <Content Include="Images\cords1.jpeg" />
     <Content Include="Images\cords2.jpeg" />
     <Content Include="Images\cords3.jpeg" />
