@@ -2,7 +2,6 @@ c:\workspace\gabior\gabior\bin\gabior.dll.config
 c:\workspace\gabior\gabior\bin\gabior.dll
 c:\workspace\gabior\gabior\bin\gabior.pdb
 c:\workspace\gabior\gabior\bin\Antlr3.Runtime.dll
-c:\workspace\gabior\gabior\bin\EntityFramework.dll
 c:\workspace\gabior\gabior\bin\Microsoft.Web.Infrastructure.dll
 c:\workspace\gabior\gabior\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 c:\workspace\gabior\gabior\bin\Newtonsoft.Json.dll
@@ -17,7 +16,6 @@ c:\workspace\gabior\gabior\bin\System.Web.WebPages.Deployment.dll
 c:\workspace\gabior\gabior\bin\System.Web.WebPages.dll
 c:\workspace\gabior\gabior\bin\System.Web.WebPages.Razor.dll
 c:\workspace\gabior\gabior\bin\WebGrease.dll
-c:\workspace\gabior\gabior\bin\EntityFramework.xml
 c:\workspace\gabior\gabior\bin\Newtonsoft.Json.xml
 c:\workspace\gabior\gabior\bin\System.Net.Http.Formatting.xml
 c:\workspace\gabior\gabior\bin\System.Web.Http.xml
