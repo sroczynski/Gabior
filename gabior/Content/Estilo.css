@@ -1,8 +1,9 @@
 ﻿body {
     background-color:#ecf0f1;
+    background-image:url(../Images/blur.jpg);
+    background-size: 100% 100%;
 }
 
 section #principal {
-    background-image:url(../Images/cords1.jpeg);
-    background-size: 100% 100%;
+    
 }
