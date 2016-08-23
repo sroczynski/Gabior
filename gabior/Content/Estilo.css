@@ -11,8 +11,10 @@ section #principal {
     width: 100%;
 }
 
-#principal .box {
+.principal .box {
     text-align:center;
+    margin: auto;
+    color: white;
 }
 
 section #contato {
