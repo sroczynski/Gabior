@@ -203,12 +203,16 @@
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Properties\PublishProfiles\gabior.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Images\backPapel.jpg" />
+    <Content Include="Images\black_studio.jpg" />
     <Content Include="Images\blur.jpg" />
     <Content Include="Images\cords1.jpeg" />
     <Content Include="Images\cords2.jpeg" />
     <Content Include="Images\cords3.jpeg" />
+    <Content Include="Images\fender_arm.jpg" />
     <Content Include="Images\guitar1.jpeg" />
     <Content Include="Images\guitar2.jpeg" />
+    <Content Include="Images\mesa.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -239,6 +243,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Contato.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

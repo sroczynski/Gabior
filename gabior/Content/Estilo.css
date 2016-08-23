@@ -1,9 +1,22 @@
 ﻿body {
+    margin:0px;
     background-color:#ecf0f1;
-    background-image:url(../Images/blur.jpg);
+    background-image:url(../Images/black_studio.jpg);
     background-size: 100% 100%;
+    background-attachment:fixed;
 }
 
 section #principal {
-    
+    height: 100%;
+    width: 100%;
 }
+
+#principal .box {
+    text-align:center;
+}
+
+section #contato {
+    width:100%;
+    background-color: #EF4836;
+}
+
