@@ -212,6 +212,8 @@
     <Content Include="Images\fender_arm.jpg" />
     <Content Include="Images\guitar1.jpeg" />
     <Content Include="Images\guitar2.jpeg" />
+    <Content Include="Images\logo\gabiBlack.png" />
+    <Content Include="Images\logo\gabiWhite.png" />
     <Content Include="Images\mesa.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
