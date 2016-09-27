@@ -1,25 +1,17 @@
 ﻿@{
     ViewBag.Title = "Gabi Ór";
 }
+<section id="home">
+    <div class="container">
+        <div>
 
-<section class="principal">
-    <section data-component="block" id="indexNew" class="content" style="height: 667px;">
-        <article class="container">
-            <div class="box">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <h1 class="logo">
-                            <a href="#" title="Gabi ór">
-                            <img src="~/Images/logo/gabiWhite.png" alt="Gabi Or"></a>
-                        </h1>
-                        <br>
-                        <h3 style="font-family: 'Quicksand', sans-serif;"><i>Em manutenção...</i></h3>
-                    </div>
-                </div>
-            </div>
-
-        </article>
-    </section>
+        </div>
+    </div>
 </section>
 
-@{ Html.RenderPartial("Contato"); }
+@{ Html.RenderPartial("Projeto");}
+@{ Html.RenderPartial("Aula");}
+@{ Html.RenderPartial("Sobre");}
+@{ Html.RenderPartial("Social");}
+@{ Html.RenderPartial("Contato");}
+@{ Html.RenderPartial("Footer");}

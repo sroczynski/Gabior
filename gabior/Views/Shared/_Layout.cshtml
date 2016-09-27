@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width" />
 
     @* facebook open graph *@
-    <meta property="og:type" content="musician" />
     <meta property="og:url" content="http://www.gabior.com.br" />
-    <meta property="og:description" content="Gabi Ór" />
+    <meta property="og:type" content="musician" />
     <meta property="og:title" content="Gabi Ór" />
-    <meta property="og:locale" content="pt-br">
+    <meta property="og:description" content="Site de Gabriela Orestes - Musicista" />
+    <meta property="og:image" content="/Images/capa/capa1.png" />
+    <meta property="og:locale" content="pt_BR">
     <meta property="og:site_name" content="Gabi Ór">
 
     @*Pinterest*@
     <meta name="p:domain_verify" content="f8a00340b5e257896349b6cbb50302bf" />
-
-    <meta name="keywords" content="musica, gabriela, gabriella, gabriella oresttes, gabriela orestes, gabriela oresttes, aulas, violão, violino, produção musical, guitarra, curso">
+    <meta name="keywords" content="musica, gabior, gabi or, gabi ór, gabriela, gabriella, gabriella oresttes, gabriela orestes, gabriela oresttes, aulas, violão, violino, produção musical, guitarra, curso">
     <meta name="description" content="Gabi Ór - Gabriella Oresttes">
 
     <title>@ViewBag.Title</title>
@@ -24,16 +24,66 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand" rel="stylesheet">
 
-    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/main.css" rel="stylesheet" />
+    <link href="~/Content/cabecalho.css" rel="stylesheet" />
 
-    @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
 </head>
 <body>
+
+    <!-- Cabeçalho -->
+    <header id="jHeader" class="">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img style="width: 150px;" src="~/Images/logo/gabiWhite.png" alt="gabior" data-pin-nopin="true"></a>
+            </div>
+            <div id="navbar-gabior" class="navbar-collapse navbar-ex1-collapse collapse" style="height: 1px;">
+                <ul id="menu-menu-1" class="nav navbar-nav navbar-right">
+                    <li id="nav-menu-item-350" class="page-scroll main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom  menu-item-home active"><a class="menu-link main-menu-link" href="#home" data-target="#home">home</a></li>
+                    <li id="nav-menu-item-351" class="page-scroll main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a class="menu-link main-menu-link" href="#projeto" data-target="#projeto">Projetos</a></li>
+                    <li id="nav-menu-item-352" class="page-scroll main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a class="menu-link main-menu-link" href="#aula" data-target="#aula">Aulas</a></li>
+                    <li id="nav-menu-item-353" class="page-scroll main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a class="menu-link main-menu-link" href="#sobre" data-target="#sobre">Sobre</a></li>
+                    <li id="nav-menu-item-354" class="page-scroll main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a class="menu-link main-menu-link" href="#social" data-target="#social">Social</a></li>
+                    <li id="nav-menu-item-355" class="page-scroll main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a class="menu-link main-menu-link" href="#contato" data-target="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
     @RenderBody()
 
-    @Scripts.Render("~/bundles/jquery")
 
-    @RenderSection("scripts", required: false)
 </body>
+@RenderSection("scripts", required: false)
+@Scripts.Render("~/bundles/jquery")
+<script src="~/Scripts/bootstrap.js"></script>
+<script src="~/Scripts/script.js"></script>
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '',
+            xfbml: true,
+            version: 'v2.7'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
 </html>
