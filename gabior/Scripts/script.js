@@ -5,7 +5,7 @@
 /*----------------------------------------------
             M E N U   A N C H O R S
 ------------------------------------------------*/
-$('.menu-item a[href*="#"]').click(function () {
+$('.menu-item a[href*="#"], .navbar-brand').click(function () {
     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
         var $target = $(this.hash);
         $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');

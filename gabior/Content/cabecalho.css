@@ -246,9 +246,9 @@ header .navbar-brand img {
         text-align: center;
     }
 
-        .navbar-collapse.collapse {
+        /*.navbar-collapse.collapse {
             display: none !important;
-        }
+        }*/
 
     .navbar-nav {
         float: none !important;
